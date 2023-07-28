@@ -1,3 +1,12 @@
+function Menu() {
+  let Depliant = document.getElementById("Depliant");
+  if (Depliant.style.display === "none"){
+    document.getElementById("Depliant").style.display = "flex";
+  } else {
+    document.getElementById("Depliant").style.display = "none";
+  }
+}
+
 function AffAcc() {
   let accueil1 = document.getElementById("Section-Accueil-1");
   let accueil2 = document.getElementById("Section-Accueil-2");
@@ -19,6 +28,7 @@ function AffAcc() {
   Comp4.style.display = "none";
   Proj.style.display = "none";
   ProjGen1.style.display = "none";
+  document.getElementById("Depliant").style.display = "none";
 }
 function AffProp() {
   let accueil1 = document.getElementById("Section-Accueil-1");
@@ -41,6 +51,7 @@ function AffProp() {
   Comp4.style.display = "none";
   Proj.style.display = "none";
   ProjGen1.style.display = "none";
+  document.getElementById("Depliant").style.display = "none";
 }
 function Affcom() {
   let accueil1 = document.getElementById("Section-Accueil-1");
@@ -63,6 +74,7 @@ function Affcom() {
   Comp4.style.display = "flex";
   Proj.style.display = "none";
   ProjGen1.style.display = "none";
+  document.getElementById("Depliant").style.display = "none";
 }
 function AffProj() {
   let accueil1 = document.getElementById("Section-Accueil-1");
@@ -85,6 +97,7 @@ function AffProj() {
   Comp4.style.display = "none";
   Proj.style.display = "flex";
   ProjGen1.style.display = "flex";
+  document.getElementById("Depliant").style.display = "none";
 }
 function P1() {
   document.querySelector(".Div-Project-1").style.display = "block";
