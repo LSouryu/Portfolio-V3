@@ -208,7 +208,7 @@
   
   #Section-Project {
     display: none;
-    top: 5vh;
+    top: 10vh;
     background-color: #7389ff;
     position: relative;
     align-content: center;
@@ -223,7 +223,7 @@
   }
   #Div-Project-Gen-1 {
     display: none;
-    top: 10vh;
+    top: 15vh;
     left: 10%;
     position: relative;
     align-items: center;
