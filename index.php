@@ -16,9 +16,7 @@
 
     <div class="Barre-menu col-12 col-s-12 col-abs">
       <div id="logo" class="col-2 col-s-2">
-        <a id="LINK-logo" href="/">
-          <img id="IMG-logo" src="asset/IMG/Group 1-logo.png"/>
-        </a>
+          <img id="IMG-logo" src="asset/IMG/Group 1-logo.png" onclick="AffAcc()"/>
       </div>
       <nav>
         <button class="menu col-2 col-s-2" onclick="AffProj()">
