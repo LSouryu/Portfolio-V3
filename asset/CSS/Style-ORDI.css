@@ -117,7 +117,7 @@
   
   #Section-Compétence-Ensemble {
     display: none;
-    top: 10vh;
+    top: 15vh;
     position: relative;
     align-content: center;
     justify-content: center;
@@ -133,7 +133,7 @@
   }
   .Div-Comp-1 {
     display: none;
-    top: 15vh;
+    top: 20vh;
     left: 25%;
     background-color: #7389ff;
     position: relative;
@@ -148,7 +148,7 @@
   }
   .Div-Comp-2 {
     display: none;
-    top: 20vh;
+    top: 25vh;
     left: 25%;
     background-color: #7389ff;
     position: relative;
@@ -163,7 +163,7 @@
   }
   .Div-Comp-3 {
     display: none;
-    top: 25vh;
+    top: 30vh;
     left: 25%;
     background-color: #7389ff;
     position: relative;
@@ -178,7 +178,7 @@
   }
   .Div-Comp-4 {
     display: none;
-    top: 30vh;
+    top: 35vh;
     left: 25%;
     background-color: #7389ff;
     position: relative;
