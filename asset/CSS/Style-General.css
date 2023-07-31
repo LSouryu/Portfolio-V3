@@ -4,8 +4,8 @@ body {
   box-sizing: border-box;
   font-family: "Lucida Sans", sans-serif;
 }
-@media only screen and (min-width: 200px) {
-  [class*="col-"] {
+@media only screen and (max-width: 600px) {
+  .col-abs {
     float: left;
     width: 100%;
   }
@@ -83,7 +83,6 @@ body {
   #Section-Accueil-1 {
     display: flex;
     top: 25vh;
-    left: 33.33%;
     position: relative;
     align-content: center;
     justify-content: center;
@@ -100,7 +99,6 @@ body {
   #Section-Accueil-2 {
     display: flex;
     top: 35vh;
-    left: 8.33%;
     position: relative;
     align-content: center;
     justify-content: center;
@@ -119,8 +117,7 @@ body {
 
   #Section-A-Propos {
     display: none;
-    top: 30vh;
-    left: 25%;
+    top: 20vh;
     position: relative;
     align-content: center;
     justify-content: center;
@@ -155,8 +152,6 @@ body {
   .Div-Comp-1 {
     display: none;
     top: 20vh;
-    left: 1vh;
-    height: 20vh;
     background-color: #7389ff;
     position: relative;
     text-align: center;
@@ -170,10 +165,7 @@ body {
   }
   .Div-Comp-2 {
     display: none;
-    top: 20vh;
-    right: 1vh;
-    float: right;
-    height: 20vh;
+    top: 25vh;
     background-color: #7389ff;
     position: relative;
     text-align: center;
@@ -188,8 +180,6 @@ body {
   .Div-Comp-3 {
     display: none;
     top: 30vh;
-    left: 1vh;
-    height: 20vh;
     background-color: #7389ff;
     position: relative;
     text-align: center;
@@ -203,10 +193,7 @@ body {
   }
   .Div-Comp-4 {
     display: none;
-    top: 30vh;
-    right: 1vh;
-    float: right;
-    height: 20vh;
+    top: 35vh;
     background-color: #7389ff;
     position: relative;
     text-align: center;
@@ -220,6 +207,14 @@ body {
   }
   .Texte-Comp {
     font-size: x-large;
+  }
+  .vide {
+    top: 40vh;
+    height: 5vh;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   /* ? PROJECT */
@@ -241,15 +236,15 @@ body {
   }
   #Div-Project-Gen-1 {
     display: none;
-    top: 25vh;
-    left: 10%;
+    top: 20vh;
     position: relative;
     align-items: center;
     align-content: center;
+    flex-direction: column;
   }
   .Div-Project-1 {
     background-color: #7389ff;
-    height: 50vh;
+    height: 25vh;
     text-align: center;
     display: block;
   }
@@ -258,7 +253,7 @@ body {
   }
   .Div-Project-2 {
     background-color: #7389ff;
-    height: 50vh;
+    height: 25vh;
     text-align: center;
     display: none;
   }
@@ -267,7 +262,7 @@ body {
   }
   .scroller {
     float: right;
-    right: 0;
+    top: 5vh;
     height: 50vh;
     overflow-y: scroll;
     scrollbar-color: rebeccapurple green;
@@ -278,7 +273,6 @@ body {
     display: flex;
     background-color: #7389ff;
     float: right;
-    right: 1vh;
     height: 10vh;
     text-align: center;
     position: relative;
@@ -293,7 +287,6 @@ body {
     background-color: #7389ff;
     float: right;
     top: 1vh;
-    right: 1vh;
     height: 10vh;
     text-align: center;
     position: relative;
@@ -309,12 +302,12 @@ body {
   footer {
     background-color: #7389ff;
     display: flex;
-    height: 7%;
-    position: absolute;
+    height: 10%;
+    position: fixed;
     bottom: 0;
     left: 0;
     color: white;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     align-content: center;
     flex-direction: row;

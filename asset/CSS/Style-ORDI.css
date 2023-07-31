@@ -134,8 +134,7 @@
   .Div-Comp-1 {
     display: none;
     top: 20vh;
-    left: 1vh;
-    height: 20vh;
+    left: 25%;
     background-color: #7389ff;
     position: relative;
     text-align: center;
@@ -149,10 +148,8 @@
   }
   .Div-Comp-2 {
     display: none;
-    top: 20vh;
-    right: 1vh;
-    float: right;
-    height: 20vh;
+    top: 25vh;
+    left: 25%;
     background-color: #7389ff;
     position: relative;
     text-align: center;
@@ -167,8 +164,7 @@
   .Div-Comp-3 {
     display: none;
     top: 30vh;
-    left: 1vh;
-    height: 20vh;
+    left: 25%;
     background-color: #7389ff;
     position: relative;
     text-align: center;
@@ -182,10 +178,8 @@
   }
   .Div-Comp-4 {
     display: none;
-    top: 30vh;
-    right: 1vh;
-    float: right;
-    height: 20vh;
+    top: 35vh;
+    left: 25%;
     background-color: #7389ff;
     position: relative;
     text-align: center;
@@ -199,6 +193,15 @@
   }
   .Texte-Comp {
     font-size: x-large;
+  }
+  .vide {
+    top: 40vh;
+    height: 5vh;
+    left: 25%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   
   /* ? PROJECT */
@@ -289,7 +292,7 @@
     background-color: #7389ff;
     display: flex;
     height: 7%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     color: white;
