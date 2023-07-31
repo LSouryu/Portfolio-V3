@@ -52,7 +52,7 @@
     </section>
     <section id="Section-Accueil-2" class="col-10 col-s-10 col-abs">
       <div class="Div-texte-accueil-2">
-        <p class="Texte-accueil-2">Developpeur Web Full Stack</p>
+        <p class="Texte-accueil-2">Developpeur Web Web Mobile</p>
       </div>
     </section>
 
@@ -60,12 +60,10 @@
 
     <section id="Section-A-Propos" class="col-6 col-s-10 col-abs">
       <div class="Div-A-Propos">
-        <p class="Texte-A-Propos">D'apres Nathan Allary,</p>
         <p class="Texte-A-Propos">
-          il est écrit que seul link peut vaincre ganon !
-        </p>
-        <p class="Texte-A-Propos">
-          et que tout korok doit bruler sur un buché !
+          Je suis un développeur web et web mobile toujour en apprentissage.
+          <br></br>
+          Je suis actuellement un formation à l'AFCI.
         </p>
       </div>
     </section>
