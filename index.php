@@ -97,24 +97,24 @@
 
     <section id="Section-Project" class="col-12 col-s-12 col-abs">
       <div class="Div-Project">
-        <p class="Texte-Project">Project :</p>
+        <p class="Texte-Project">Projet :</p>
       </div>
     </section>
     <div id="Div-Project-Gen-1" class="col-12 col-s-12 col-abs">
       <div class="Div-Project-1 col-5 col-s-12 col-abs">
-        <p class="Texte-Project-1">Project 1 : Portfolio</p>
+        <p class="Texte-Project-1">Projet 1 : Portfolio</p>
         <p class="Texte-Project-1">*Indice : tu est deja dedans</p>
       </div>
       <div class="Div-Project-2 col-5 col-s-12 col-abs">
-        <p class="Texte-Project-2">Project 2 : Test</p>
+        <p class="Texte-Project-2">Projet 2 : Test</p>
         <p class="Texte-Project-2">*Indice : C'est un test</p>
       </div>
       <div class="scroller col-5 col-s-12 col-abs">
         <div id="Div-Project-Reflect-1" class="col-11 col-s-12 col-abs" onclick="P1()">
-          <p>project 1</p>
+          <p>projet 1</p>
         </div>
         <div id="Div-Project-Reflect-2" class="col-11 col-s-12 col-abs" onclick="P2()">
-          <p>project 2</p>
+          <p>projet 2</p>
         </div>
       </div>
     </div>
